@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e6aa44f308ccc568e0139a2f525da07e",
+    "content-hash": "5e74000ecd344842127454c3975d886b",
     "packages": [
         {
             "name": "composer/installers",
@@ -291,6 +291,17 @@
             "time": "2017-07-17T20:41:59+00:00"
         },
         {
+            "name": "passionsplay/wp-asciinema",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:passionsplay/wp-asciinema.git",
+                "reference": "66b92e48a12a1531be2cff44e20b602aae6ea743"
+            },
+            "type": "wordpress-plugin",
+            "time": "2017-07-25 23:15:43"
+        },
+        {
             "name": "roots/wp-password-bcrypt",
             "version": "1.0.0",
             "source": {
@@ -513,7 +524,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "passionsplay/wp-asciinema": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
