@@ -31,3 +31,5 @@ user@laptop:example.com/trellis $ ansible-vault decrypt group_vars/production/va
 user@laptop:example.com/trellis $ ansible-vault edit group_vars/production/vault.yml
 ```
 
+See [Trelis Vault Docs](https://roots.io/trellis/docs/vault/) for more information.
+
